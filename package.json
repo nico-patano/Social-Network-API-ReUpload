@@ -1,0 +1,21 @@
+{
+    "name": "social-network-api",
+    "version": "1.0.0",
+    "description": "Mongoose back-end s-n-a-app",
+    "main": "index.js",
+    "license": "",
+    "scripts": {
+      "start": "node server",
+      "dev": "nodemon server",
+      "seed": "node utils/seed.js",
+      "heroku-postbuild": "node utils/seed.js"
+    },
+    "dependencies": {
+      "express": "^4.17.1",
+      "mongoose": "^6.0.13",
+      "dayjs": "^1.11.0"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.9"
+    }
+  }
