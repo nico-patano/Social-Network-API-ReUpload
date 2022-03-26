@@ -1,6 +1,5 @@
 # Social-Network-API-ReUpload
 
-# Social Network API 
 
 This is a social platform api that allows the user to interact with mongo db. To install the api simply type "npm i" then start it as you would any other server.js file. Above every api call there is a comment that tells you the endpoint and the required information for the call.
 
